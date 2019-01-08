@@ -4,7 +4,7 @@ Example Spring Cloud Configuration Server Application.  This spring cloud config
 
 Below steps followed
 
-1) Create ssh public & private keys using PuTTy Key Generator
+1) Create ssh public & private keys using PuTTy Key Generator.  [demo](https://www.ssh.com/ssh/putty/windows/puttygen)
 2) Export public key 
 3) Add public key to your gitHub account using setting --> ssh keys [GitHub setup ssh Keys](https://github.com/settings/keys)
 4) Add private key to server's application.yml --> privateKey property
