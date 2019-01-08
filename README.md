@@ -11,7 +11,7 @@ Below steps followed
 
 Configuration servers search properties using searchPaths properties. This enables client to load properties using application name & enviroment name ( using profile)
 
-[Demo Application Configuration](https://github.com/himorithm/configuration)
+[Demo Application Configuration](https://github.com/himorithm/demo-configuration-repo)
 
 [Demo Application client](https://github.com/himorithm/spring-configuration-client-demo)
 
