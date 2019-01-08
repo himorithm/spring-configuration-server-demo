@@ -6,10 +6,10 @@ Below steps followed
 
 1) Create ssh public & private keys using PuTTy Key Generator
 2) Export public key 
-3) Add public key to your gitHub account using setting --> ssh keys ( https://github.com/settings/keys)
-3) Add private key to server's application.yml. privateKey property
+3) Add public key to your gitHub account using setting --> ssh keys [GitHub setup ssh Keys](https://github.com/settings/keys)
+4) Add private key to server's application.yml --> privateKey property
 
 Configuration servers search properties using searchPaths properties. This enables client to load properties using application name & enviroment name ( using profile)
 
-Demo Application Configuration: https://github.com/himorithm/configuration
-Demo Application client : 
+[Demo Application Configuration](https://github.com/himorithm/configuration)
+[Demo Application client](https://github.com/himorithm/spring-configuration-client-demo)
