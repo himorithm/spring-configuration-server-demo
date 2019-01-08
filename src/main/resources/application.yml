@@ -1,0 +1,56 @@
+logging:
+  level:
+    org:
+      springframework : INFO
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  devtools:
+    add-properties: false
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:himorithm/configuration.git
+          cloneOnStart: true
+          ignoreLocalSshSettings: true
+          timeout: 5
+          strictHostKeyChecking: false
+          force-pull: true
+          deleteUntrackedBranches: true
+          basedir: D:\config_data
+          searchPaths: '{application}_{profile}'
+          privateKey: |
+                       -----BEGIN RSA PRIVATE KEY-----
+                       MIIEoQIBAAKCAQEAhhHFerX547Qi1H8cSoMe5WDQemVzc6K06CPy8BZCo8if8m31
+                       FMmb86BvdVsjQfHHbrrSjkL6pym8/pjJWVmZ+Vwd8PnFlespQ/nFZgOl1M8zXt4C
+                       dH71Ak948YkrRrw/MED6ya21FZ/+GIffKkWnXYmQiL6o3kcTES50IbeFJAmtkNL2
+                       q/bGu/qWj64R3dvGQF9vYfnLKl9CdDPNY2e12C0QOydXqd7mVd5ZcfkHD/u9MBmf
+                       060pv0h/QDqYEgSnADyMGo2x1KfGx8MpKdyFcdCAM+g7Jt56WACZ/rpovXndI4NQ
+                       3nqfdDCBCu5L0jvKoCVwK0N4/TJ4DTY9w5GBlQIBJQKCAQB+0opfUjGSNMcAXJBi
+                       KQGM3wpl8UOykv4ns02XAEzgHqUjmHI2Qiu88bWKsChFTH5h01GNfaD+/ff3wPXR
+                       D5GmsRVnaM+pfZW814Ngf/27d+R8VXfxqIbmgocpq0Sc25W4Bh2qBS7BbdSva8VD
+                       qawoDIHNdhVcpBj0k7n2YX3xpuur5IM6wxtMSG2BensXuGvElpEseVBswmEiFRA5
+                       BrAMh/4Dm9lE/cWql17ETEap0uGEzYxxBxrIyr1FHCchcJwlp+6Ol6LP2LJx8Omh
+                       n20ki7tT6WXE9+GHrUtFaLeCGaBVECeG7f8h8B4dDYEg/XdGblcQkgLErhc5issl
+                       r94BAoGBAL0NfG6kPCoLNYFcsB4D9jBzf7dqxHm3VxOyaoA4sAgu/B2e0DHzK0fv
+                       HNw5AQg8WfM1sTXkX5O0omEGFKQLB26hukbY/II76zinbgzCtGnAy5MtW7enzWCo
+                       bMExndV6viURgtKoa7H1DY4duCXJPntjdO0LNLLuk3iACesULXFjAoGBALWLy1xj
+                       NX/VKA8mdSiU720EXc4KBYdmdTXJpGfnHlKjQhlIEXqLBm5apSBa0z8YyiwHnb+G
+                       cfYRz8srmno0GHYK0L4YinwqujfiZQ96eEHpeIYUPgH3/G0Y1VYHZLtSzIOa0iiK
+                       KUYvX5/kcQPtbbPjmvPip56PKMm+DqCAPG6nAoGBAIn1FZzYtkgxsWw8t96NRPLs
+                       f8sIuOMywwCJHUjPa7Lx2pInyFvNH5VbdezPps6olKqO9u/5rYd1+fPGKrzldCBM
+                       gQNEZTxw6esSZRA7Dgf7ZB9KnN/2/admJdkWXmtZkaxY4uzAFzyr50wH2Weuh4p5
+                       Akwc7xrJxY9IrUqt2/jLAoGAa/JBkOELDb0DD+1aaygfqJrP/fge9o/yqlw4Pcex
+                       KjePFfOAA6ycCkO8IRNo2Wivj80tXR+CB+7qQXPfT5SY7D3IOa26IFDBwF0ZftMy
+                       v2g50y6haPRQ5uwr0kmV1ypQFuZvHwYKtBwrBSAL2NJc54Bp+Mv09n6ioXftBXyu
+                       T6ECgYA8otLCD2vCeTubwHFq7K57uAqw2BbhE+wsHYfFXtQtZeF5cKXsTndYoPr6
+                       ed4QVuiehQ5oKKBKjWpzd6xPrllaYdSty/HAWACtDhHXjq+24GFZSGAreQn2BCaz
+                       0No6I0zwvtgLStzXUazYh/ocaNtWfX2FsVxm18VDfHl0JCWmsQ==
+                       -----END RSA PRIVATE KEY-----
+
+
+
+
