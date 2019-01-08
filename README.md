@@ -1,4 +1,4 @@
-# spring-configuration-server-demo
+# spring configuration server demo
 
 Example Spring Cloud Configuration Server Application.  This spring cloud configuration server connects github using ssh private key.  Ssh private key is generated using PuTTy Key Generator on windows. 
 
