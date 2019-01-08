@@ -13,7 +13,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:himorithm/configuration.git
+          uri: git@github.com:himorithm/demo-configuration-repo.git
           cloneOnStart: true
           ignoreLocalSshSettings: true
           timeout: 5
