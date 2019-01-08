@@ -1,18 +1,17 @@
-# spring configuration server demo
+# Demo Spring Cloud Configuration Server 
 
-Example Spring Cloud Configuration Server Application.  This spring cloud configuration server connects github using ssh private key.  Ssh private key is generated using PuTTy Key Generator on windows. 
+This demo spring cloud configuration server connects github using ssh protocol.  
 
-Below steps followed
+SSH private key is generated using PuTTy Key Generator on windows. 
+Public key is added as deployment key on gitHub. 
+Private key is used Configuration Server to connect Demo Github configuration repo. 
 
-1) Create ssh public & private keys using PuTTy Key Generator.  [demo](https://www.ssh.com/ssh/putty/windows/puttygen)
-2) Export public key 
-3) Add public key to your gitHub account using setting --> ssh keys [GitHub setup ssh Keys](https://github.com/settings/keys)
-4) Add private key to server's application.yml --> privateKey property
+Configuration servers resolve configuration files using searchPaths spring variable. 
+This enables client to load properties using application name & profile (can be used as environment Name)
 
-Configuration servers search properties using searchPaths properties. This enables client to load properties using application name & enviroment name ( using profile)
-
-[Demo Application Configuration](https://github.com/himorithm/configuration)
+[Demo Application Configuration](https://github.com/himorithm/demo-configuration-repo)
 
 [Demo Application client](https://github.com/himorithm/spring-configuration-client-demo)
+
 
 

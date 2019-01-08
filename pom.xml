@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.himanshu.configServer</groupId>
-	<artifactId>configServerDemo</artifactId>
+	<artifactId>spring-configuration-server-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>configServerDemo</name>
-	<description>Demo project for Spring Boot Configuration Server</description>
+	<name>Spring Configuration Server Demo</name>
+	<description>Demo project for Spring Boot Configuration Server using SSH</description>
 
 	<properties>
 		<java.version>1.8</java.version>
