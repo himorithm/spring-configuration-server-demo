@@ -8,6 +8,7 @@ Below steps followed
 2) Export public key 
 3) Add public key to your gitHub account using setting --> ssh keys [GitHub setup ssh Keys](https://github.com/settings/keys)
 4) Add private key to server's application.yml --> privateKey property
+5) Server also creates local directory D:\config_data to clone demo configuration repo.  You can change the path in application.yml --> basedir.
 
 Configuration servers search properties using searchPaths properties. This enables client to load properties using application name & enviroment name ( using profile)
 
